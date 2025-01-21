@@ -45,7 +45,7 @@ self.addEventListener('activate', (event) => {
 
 // Fetch: Tentativa de resposta do cache, senão busca na rede
 self.addEventListener('fetch', (event) => {
-  console.log('Interceptando requisições', event)
+  // console.log('Interceptando requisições', event)
 
   const requestUrl = new URL(event.request.url)
 
